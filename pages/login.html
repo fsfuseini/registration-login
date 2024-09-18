@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <script src="../script/login.js" defer></script>
 </head>
 
 <body>
     <h1>Login As Existing User</h1>
 
-    <form action=""></form>
-    <input type="text" placeholder="Enter your username" required>
-    <input type="password" placeholder="Enter your password" required>
-    <button type="submit">Login</button>
+    <form id="login">
+        <input type="text" placeholder="Enter your username" required>
+        <input type="password" placeholder="Enter your password" required>
+        <button type="submit">Login</button>
     </form>
+
+    <h1 id="message"></h1>
+
     <div>
         <a href="../index.html">Home</a>
         <a href="./register.html">Register</a>
